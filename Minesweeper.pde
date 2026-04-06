@@ -14,7 +14,7 @@ void setup ()
     textAlign(CENTER,CENTER);
     
     // make the manager
-    Interactive.make( this );
+    Interactive.make(this);
     
     //your code to initialize buttons goes here
     mines = new ArrayList<MSButton>();
@@ -39,8 +39,8 @@ public void setMines()
 
 public void draw ()
 {
-    background( 0 );
-    if(isWon()true) {
+    background(0);
+    if(isWon()) {
         displayWinningMessage();
     }
 }
